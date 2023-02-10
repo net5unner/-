@@ -7,7 +7,7 @@ string[] Неделя = {"Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"}
 
 Console.WriteLine("Ввести цифру, обозначающую день недели: ");
 
-int Num = int.Parse(Console.ReadLine());
+int Num = int.Parse(Console.ReadLine()!);
 
 int Day = Num - 1;
 
